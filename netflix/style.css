@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+body{
+font-family: 'Lato', sans-serif;
+background-color: black;
+color: #999;
+}
+#{
+    margin:0;
+    padding:0;
+}
+:root{
+    --pr-color:#e50914;
+
+}
+img{
+    width:50px;
+    height:100hv;
+    background: fixed;
+}
+h1{
+    color:white;
+}
+.showcase{
+    background-image: url("flex/flex\ pic.jpg");
+    height:100hv;
+    filter: brightness(50%);
+    width:100%;
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.showcase ::after{
+    content:"";
+    width:100%;
+    top:0;
+    left:50%;
+    position:absolute;
+    z-index:1;
+    }
+    .showcase-top{
+        Z-index:2;
+        position: relative;
+        height:90px;
+
+    }
+
+    .showcase-top img{
+        z-index: 2;
+        position:absolute;
+        top:50%;
+        left:50%;
+        width:150px;
+        transform: translate(-50%,-50%);
+    }
+
+    .showcase-top button{
+        top:50%;
+        right:0;
+        position:absolute;
+        transform: translate(-50%,-50%);
+
+    }
+.signin
+{
+    display:inline-block;
+   background-color: var(--pr-color);
+    color: white;
+    padding:4px 20px;
+    text-align:center;
+    margin-right:8px;
+    cursor:pointer;
+    border-radius:5px;
+    border:none;
+    
+
+
+}
+.btn-x1{
+    font-size: 24px;
+    padding:22px 35px;
+    background-color: var(--pr-color);
+    border-radius: 10px;
+    color:white;
+    border:0;
+}
+.showcase-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.showcase-content h1{font-weight: 900;
+    font-size: 75px;
+    margin-bottom: 32px;
+}
+.showcase p{
+    text-transform: uppercase;
+    color:white;
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+.footer{
+    max-width: 70%;
+margin-top:16px auto;
+}
+.footer footer a{
+    color: #999;
+font-size: 15px;
+text-decoration: none;
+}
+.footer p{
+    margin-bottom: 24px;
+
+}
+.footer-cols{
+    display: flex;
+    align-items:center;
+    margin-left:300px;
+    justify-content: center;
+}
+.footer li{
+    line-height: 1.9;
+    list-style: none;
+
+}
+.sub-div1{
+    margin-right: 70px;
+}
+.sub-div2{
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
